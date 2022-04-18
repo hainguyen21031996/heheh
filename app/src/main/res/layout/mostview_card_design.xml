@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    app:cardElevation="8dp"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="280dp"
+        android:layout_height="150dp"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/img_mv"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mostview1" />
+
+        <TextView
+            android:id="@+id/title_mv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img_mv"
+            android:fontFamily="serif"
+            android:text="BÁNH TIÊU"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <RatingBar
+            android:id="@+id/ratting_mv"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_mv"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img_mv"
+            android:progressTint="#FFEB3B"
+            android:rating="4.5"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/desc_mv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ratting_mv"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/img_mv"
+            android:fontFamily="serif"
+            android:text="Làm bánh tiêu đơn giản tại nhà không cần men nở, không cần ủ bột."
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

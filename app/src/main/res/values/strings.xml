@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">SignInGoogle</string>
+    <string name="facebook_app_id">257755542881721</string>
+    <string name="fb_login_protocol_scheme">fb257755542881721</string>
+    <string name="facebook_client_token">Facebook Client ID</string>
+
+    //Headings
+    <string name="heading_one">Nấu ăn không chỉ là công việc </string>
+    <string name="heading_two">Hàng trăm công thức nấu ăn</string>
+    <string name="heading_three">Bữa cơm gia đình</string>
+    <string name="heading_fourth">Tích hợp danh sách đi chợ</string>
+
+    //Description
+    <string name="desc_one">Nấu ăn không chỉ là công việc mà còn là thú vui trong cuộc sống thường nhật. Nấu ăn khiến ta thư giãn hơn, vui vẻ hơn, sáng tạo hơn và tất nhiên sẽ hạnh phúc hơn.</string>
+    <string name="desc_two">Để việc vào bếp không còn khó khăn với bất kỳ ai, người vụng về hay là người mới bắt đầu.</string>
+    <string name="desc_three">Việc nấu ăn mang đến cho bạn và gia đình nhiều khoảnh khắc vui vẻ hạnh phúc và có một sức khỏe dồi dào.</string>
+    <string name="desc_fourth">Bạn không còn gặp khó khăn trong việc ghi chú danh sách đi chợ  và bạn có thể xem nó bất cứ nơi đâu.</string>
+
+    //Bang tin
+    <string name="dummytext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</string>
+
+    //Huong dan
+    <string name="hd1">Rang khô hoa hồi, đinh hương, thanh quế và hạt thìa là trên chảo chống dính cho đến khi dậy mùi thơm rồi tắt bếp và để nguội rồi cho vào túi vải và buộc chặt.</string>
+    <string name="hd2">Nướng hành tây và gừng tươi khoảng 45 phút cho đến khi vàng đều.</string>
+    <string name="h3">Thịt bò, nạm bò và lá sách bò rửa sạch.</string>
+    <string name="h4">Xương bò chần qua nước sôi khoảng 1-2 phút rồi vớt ra, rửa sạch.</string>
+    <string name="h5">Củ cải trắng gọt vỏ, rửa sạch. Bóc vỏ và cắt lát mỏng 1/2 củ hành tây. Hành lá, ngò rí, ngò gai rửa sạch, cắt nhỏ rồi trộn với hành tây vừa cắt.</string>
+    <string name="h6">Giá đỗ rửa sạch. Húng quế và xà lách lấy lá, rửa sạch. Chanh cắt làm 4 miếng.</string>
+    <string name="h7">Cho xương bò và 500ml nước lọc vào nồi đun sôi. Thêm nạm bò, củ cải trắng, 3 muỗng canh đường, gói gia vị đã buộc, hành tây và gừng đã nướng vào. Đun liu riu khoảng 3-4 tiếng đồng hồ. Sau đó, nêm 4 muỗng canh muối, 1 muỗng canh đường, 4 muỗng canh nước mắm, 1/2 muỗng canh bột ngọt, khuấy đều rồi tắt bếp.</string>
+    <string name="h8">Nạm bò chín thì vớt ngâm vào nước lạnh khoảng 5 phút rồi cắt lát mỏng. Thịt bò đem luộc chín tái, sách bò luộc khoảng 4 phút thì vớt ra, cắt nhỏ thịt bò và sách bò cho vừa ăn.</string>
+
+</resources>

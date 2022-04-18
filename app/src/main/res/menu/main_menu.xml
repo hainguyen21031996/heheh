@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Trang chủ"
+            android:icon="@drawable/home"/>
+        <item
+            android:id="@+id/nav_search"
+            android:title="Tìm kiếm"
+            android:icon="@drawable/timkiem"/>
+        <item
+            android:id="@+id/nav_all_categories"
+            android:title="Bảng tin"
+            android:icon="@drawable/newfeed"/>
+        <item
+            android:id="@+id/nav_add_missing_place"
+            android:title="Cài đặt"
+            android:icon="@drawable/setting"/>
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_login"
+                    android:title="Đăng nhập"
+                    android:icon="@drawable/user"/>
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="Profile"
+                    android:icon="@drawable/resume"/>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Đăng xuất"
+                    android:icon="@drawable/logout"/>
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="Các loại công thức">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_restaurants"
+                    android:title="Bún - Mì - Phở"
+                    android:icon="@drawable/ramen"/>
+                <item
+                    android:id="@+id/nav_bank"
+                    android:title="Ăn vặt"
+                    android:icon="@drawable/snack"/>
+                <item
+                    android:id="@+id/nav_educationn"
+                    android:title="Nước"
+                    android:icon="@drawable/drink"/>
+                <item
+                    android:id="@+id/nav_shop"
+                    android:title="Lẩu"
+                    android:icon="@drawable/hotpot"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Chia sẻ">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/nav_share"
+                    android:title="Chia sẻ"
+                    android:icon="@drawable/share"/>
+                <item
+                    android:id="@+id/nav_rate_us"
+                    android:title="Đánh giá"
+                    android:icon="@drawable/rate"/>
+            </group>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="280dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="40dp"
+    app:cardElevation="8dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:background="#29B6F6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/rcv1_img"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/amthuc1"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/txt_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="Bữa Sáng Thú Vị"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <RatingBar
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:progressTint="#FFEB3B"
+            android:rating="3.5" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/txt_img_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:text="Một vài gợi ý giúp team lười nhất cũng có bữa sáng vừa nhanh gọn, bổ dưỡng lại ngon miệng mỗi ngày"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

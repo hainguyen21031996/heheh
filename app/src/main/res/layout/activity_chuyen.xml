@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListPho.ChuyenActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_pho1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:cardElevation="8dp"
+                android:layout_margin="10dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/img_pho1"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/bangtin_pho"
+                        android:transitionName="example_transition" />
+
+                    <TextView
+                        android:id="@+id/title_mv"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/img_pho1"
+                        android:fontFamily="serif"
+                        android:text="Phở Bò Nạm"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <RatingBar
+                        android:id="@+id/ratting_pho1"
+                        style="@style/Widget.AppCompat.RatingBar.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/title_mv"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@id/img_pho1"
+                        android:progressTint="#FFEB3B"
+                        android:rating="4.5" />
+
+                    <TextView
+                        android:id="@+id/songuoi_pho1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ratting_pho1"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@id/img_pho1"
+                        android:fontFamily="serif"
+                        android:text="Khẩu phần 4 người"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/nguoidang_pho1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/songuoi_pho1"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@id/img_pho1"
+                        android:fontFamily="serif"
+                        android:text="Đăng bởi: Diễm Hồng"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_pho2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:cardElevation="8dp"
+                android:layout_margin="10dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/img_pho2"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/bundaumamtom" />
+
+                    <TextView
+                        android:id="@+id/title_pho2"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/img_pho2"
+                        android:fontFamily="serif"
+                        android:text="Bún Đậu Mắm Tôm"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <RatingBar
+                        android:id="@+id/ratting_pho2"
+                        style="@style/Widget.AppCompat.RatingBar.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/title_pho2"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@id/img_pho2"
+                        android:progressTint="#FFEB3B"
+                        android:rating="4.5" />
+
+                    <TextView
+                        android:id="@+id/songuoi_pho2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ratting_pho2"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@id/img_pho2"
+                        android:fontFamily="serif"
+                        android:text="Khẩu phần 4 người"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/nguoidang_pho2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/songuoi_pho2"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@id/img_pho2"
+                        android:fontFamily="serif"
+                        android:text="Đăng bởi: Minh Tiến"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_pho3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:cardElevation="8dp"
+                android:layout_margin="10dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/img_pho3"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/bunmam" />
+
+                    <TextView
+                        android:id="@+id/title_pho3"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/img_pho3"
+                        android:fontFamily="serif"
+                        android:text="Bún Mắm"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <RatingBar
+                        android:id="@+id/ratting_pho3"
+                        style="@style/Widget.AppCompat.RatingBar.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/title_pho3"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@id/img_pho3"
+                        android:progressTint="#FFEB3B"
+                        android:rating="3" />
+
+                    <TextView
+                        android:id="@+id/songuoi_pho3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ratting_pho3"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@id/img_pho3"
+                        android:fontFamily="serif"
+                        android:text="Khẩu phần 4 người"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/nguoidang_pho3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/songuoi_pho3"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@id/img_pho3"
+                        android:fontFamily="serif"
+                        android:text="Đăng bởi: Trường Giang"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_pho4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:cardElevation="8dp"
+                android:layout_margin="10dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/img_pho4"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/myy" />
+
+                    <TextView
+                        android:id="@+id/title_pho4"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/img_pho4"
+                        android:fontFamily="serif"
+                        android:text="Mỳ Ý"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <RatingBar
+                        android:id="@+id/ratting_pho4"
+                        style="@style/Widget.AppCompat.RatingBar.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/title_pho4"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@id/img_pho4"
+                        android:progressTint="#FFEB3B"
+                        android:rating="4.5" />
+
+                    <TextView
+                        android:id="@+id/songuoi_pho4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ratting_pho4"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@id/img_pho4"
+                        android:fontFamily="serif"
+                        android:text="Khẩu phần 4 người"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/nguoidang_pho4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/songuoi_pho4"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@id/img_pho4"
+                        android:fontFamily="serif"
+                        android:text="Đăng bởi: Diễm Hồng"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_pho5"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:cardElevation="8dp"
+                android:layout_margin="10dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/img_pho5"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/banhcanhcaloc" />
+
+                    <TextView
+                        android:id="@+id/title_pho5"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/img_pho5"
+                        android:fontFamily="serif"
+                        android:text="Banh Canh Cá Lóc"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <RatingBar
+                        android:id="@+id/ratting_pho5"
+                        style="@style/Widget.AppCompat.RatingBar.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/title_pho5"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@id/img_pho5"
+                        android:progressTint="#FFEB3B"
+                        android:rating="4.5" />
+
+                    <TextView
+                        android:id="@+id/songuoi_pho5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ratting_pho5"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@id/img_pho5"
+                        android:fontFamily="serif"
+                        android:text="Khẩu phần 4 người"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/nguoidang_pho5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/songuoi_pho5"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@id/img_pho5"
+                        android:fontFamily="serif"
+                        android:text="Đăng bởi: Diễm Hồng"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

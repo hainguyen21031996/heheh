@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="-8dp"
+        android:background="#F1F8E9"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Đăng ký"
+            android:gravity="center"
+            android:textSize="30sp"></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:text="“Nấu ăn đã, mọi chuyện khác để sau.”"
+            android:textSize="15sp"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical">
+
+            <!--<EditText
+                android:id="@+id/edtfirstname"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/botron_dk"
+                android:drawableLeft="@drawable/cook"
+                android:hint="Tên đầy đủ của bạn"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="15sp" />-->
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/botron_dk"
+                android:drawableLeft="@drawable/email"
+                android:hint="Email"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/edtPass"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/botron_dk"
+                android:drawableLeft="@drawable/user"
+                android:hint="Mật khẩu"
+                android:inputType="textPassword"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/edtRePass"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/botron_dk"
+                android:drawableLeft="@drawable/password"
+                android:hint="Nhập lại mật khẩu"
+                android:inputType="textPassword"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/dacotaikhoan"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Bạn đã có tài khoản?"
+                android:layout_marginVertical="5dp"/>
+            <Button
+                android:id="@+id/btnDK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/botron_button"
+                android:text="Đăng ký"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                app:backgroundTint="#9CCC65" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

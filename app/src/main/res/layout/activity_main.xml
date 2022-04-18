@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="-8dp"
+        android:background="#FDFCFD"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/logo" />
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/menu_slogan"
+            android:fontFamily="@font/alex_brush"
+            android:text="MoCo"
+            android:textColor="@color/black"
+            android:textSize="50sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:text="“Nấu ăn đã, mọi chuyện khác để sau.”"
+            android:textSize="15sp"
+            android:textColor="@color/black"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtUsername"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/botron_edittext"
+                android:drawableLeft="@drawable/user"
+                android:hint="Tên đăng nhập"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/edtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+
+                android:background="@drawable/botron_edittext"
+                android:drawableLeft="@drawable/password"
+                android:hint="Mật khẩu"
+                android:inputType="textPassword"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/cbremember"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nhớ tài khoản"/>
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/botron_button"
+                android:text="Đăng nhập"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                app:backgroundTint="#E91E63" />
+
+
+            <TextView
+                android:id="@+id/tvdk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:text="Bạn chưa có tài khoản? Đăng ký ngay"
+                android:textColor="#7E57C2"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/btnGG"
+                android:background="@drawable/search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ImageButton
+                android:id="@+id/btnghup"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/github"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnFb"
+                android:background="@drawable/facebook"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
